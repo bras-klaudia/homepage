@@ -1,0 +1,49 @@
+.section {
+    padding: 10px;
+}
+
+.section--centered {
+    text-align: center;
+}
+
+.section__subHeader {
+    text-align: left;
+    padding: 50px 0 0;
+    color: rgb(79, 6, 61);
+}
+
+.section__header {
+    padding: 50px 0 0;
+}
+
+.section_header--name {
+    color: rgb(43, 3, 33);
+}
+
+.section__paragraph{
+    line-height: 1.5;
+}
+
+.section__image {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    box-shadow: 0px 5px 9px -5px #000000, 1px 1px 33px 4px rgb(48, 66, 63);
+}
+
+.section__button {
+    font-family: "Lato", sans-serif;
+    background-color: rgb(60, 27, 53);
+    color: #eee;
+    padding: 20px;
+    margin-bottom: 40px;
+    border: none;
+}
+
+.section__button:hover {
+    background-color: rgb(108, 62, 98);
+}
+
+.section__element {
+    font-weight: bold;
+}

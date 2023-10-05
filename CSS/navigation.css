@@ -1,0 +1,24 @@
+.navigation {
+    border-bottom: 2px solid rgb(60, 27, 53);
+    line-height: 1.5;
+}
+
+.navigation__item {
+    list-style: none;
+    padding: 2px;
+    font-size: 110%;
+}
+
+.navigation__item:hover {
+    color: rgb(67, 7, 32);
+}
+
+.navigation__link {
+    text-decoration: none;
+    color: rgb(43, 3, 33);
+}
+
+.navigation__link:hover {
+    color: rgb(79, 6, 61);
+    font-weight: bold;
+}
