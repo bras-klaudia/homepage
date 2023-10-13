@@ -1,16 +1,26 @@
-function welcome() {
-    console.log("Cześć wszystkim! ")
-}
+{
+    const welcome = () => {
+        console.log("Cześć wszystkim! ")
+    }
 
-let onChangeBackgroundClick = () => {
+    const toggleBackground = () => {
+        const body = document.querySelector(".body")
+        const nextColorName = document.querySelector(".section__button--change")
+
+
         body.classList.toggle("body__whiteBackground");
         nextColorName.innerText = body.classList.contains("body__whiteBackground") ? "szare" : "białe";
     };
 
-    welcome();
+    const init = () => {
+        const changeColorButton = document.querySelector(".section__button")
 
-let changeColorButton = document.querySelector(".section__button")
-let body = document.querySelector(".body")
-let nextColorName = document.querySelector(".section__button--change")
+        changeColorButton.addEventListener("click", toggleBackground);
 
-changeColorButton.addEventListener("click", onChangeBackgroundClick);
+        welcome();
+
+    };
+
+init();
+
+}
